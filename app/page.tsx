@@ -60,10 +60,7 @@ export default function Home() {
           activeSection={activeSection}
           onSectionChange={handleSectionChange}
         />
-        <div className="content-wrapper">
-          {renderContent()}
-          {activeSection === "home" && <RightSidebar />}
-        </div>
+        <div className="content-wrapper">{renderContent()}</div>
       </div>
     </div>
   );
