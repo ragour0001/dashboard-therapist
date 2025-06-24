@@ -1,0 +1,50 @@
+{
+  "name": "figma-dashboard-react",
+  "version": "1.0.0",
+  "description": "A modern React dashboard application built with Next.js, replicating a Figma design with pixel-perfect accuracy",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit"
+  },
+  "keywords": [
+    "react",
+    "nextjs",
+    "dashboard",
+    "figma",
+    "typescript",
+    "frontend",
+    "ui",
+    "responsive"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_USERNAME/figma-dashboard-react.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YOUR_USERNAME/figma-dashboard-react/issues"
+  },
+  "homepage": "https://github.com/YOUR_USERNAME/figma-dashboard-react#readme",
+  "dependencies": {
+    "next": "^14.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "eslint": "^8.0.0",
+    "eslint-config-next": "^14.0.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  }
+}
