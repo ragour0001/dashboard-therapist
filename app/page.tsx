@@ -4,7 +4,7 @@ import { useState } from "react";
 import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
 import MainContent from "./components/MainContent";
-import RightSidebar from "./components/RightSidebar";
+
 import GoalsAssessment from "./components/GoalsAssessment";
 import MyCarePlan from "./components/MyCarePlan";
 import TherapistCoach from "./components/TherapistCoach";
